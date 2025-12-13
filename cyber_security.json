@@ -1,0 +1,1676 @@
+[
+  {
+    "_id": "q_cs_0001",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Fundamentals",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is the primary goal of cyber_security?",
+    "options": [
+      "Increase system performance",
+      "Ensure confidentiality, integrity, and availability of information",
+      "Reduce software cost",
+      "Improve user experience"
+    ],
+    "answer": "Ensure confidentiality, integrity, and availability of information",
+    "explanation": "cyber_security focuses on protecting data and systems through the CIA triad.",
+    "tags": ["cyber_security", "CIA Triad"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Confidentiality, Integrity, Availability"]
+  },
+  {
+    "_id": "q_cs_0002",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Threats",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which type of malware encrypts user data and demands payment for decryption?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Trojan"
+    ],
+    "answer": "Ransomware",
+    "explanation": "Ransomware locks data and demands ransom to restore access.",
+    "tags": ["cyber_security", "Malware"],
+    "required_skills": ["Threat Analysis"],
+    "hints": ["Data hostage"]
+  },
+  {
+    "_id": "q_cs_0003",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Cryptography",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which cryptographic principle ensures that data has not been altered?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Authentication",
+      "Non-repudiation"
+    ],
+    "answer": "Integrity",
+    "explanation": "Integrity guarantees that data remains unchanged during storage or transmission.",
+    "tags": ["cyber_security", "Cryptography"],
+    "required_skills": ["Information Security"],
+    "hints": ["Data tampering"]
+  },
+  {
+    "_id": "q_cs_0004",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Network Security",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is the primary function of a firewall?",
+    "options": [
+      "Encrypt network traffic",
+      "Detect malware",
+      "Control incoming and outgoing network traffic",
+      "Manage user credentials"
+    ],
+    "answer": "Control incoming and outgoing network traffic",
+    "explanation": "Firewalls enforce security rules by filtering network traffic.",
+    "tags": ["cyber_security", "Firewalls"],
+    "required_skills": ["Network Security"],
+    "hints": ["Traffic filtering"]
+  },
+  {
+    "_id": "q_cs_0005",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Authentication",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which authentication method uses two or more verification factors?",
+    "options": [
+      "Single Sign-On",
+      "Multi-Factor Authentication",
+      "Password-based login",
+      "Token-less authentication"
+    ],
+    "answer": "Multi-Factor Authentication",
+    "explanation": "MFA combines factors like knowledge, possession, and biometrics.",
+    "tags": ["cyber_security", "Authentication"],
+    "required_skills": ["Access Control"],
+    "hints": ["Multiple factors"]
+  },
+  {
+    "_id": "q_cs_0006",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Attacks",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What type of attack involves overwhelming a system with traffic?",
+    "options": [
+      "Man-in-the-middle",
+      "SQL injection",
+      "Denial of Service",
+      "Phishing"
+    ],
+    "answer": "Denial of Service",
+    "explanation": "DoS attacks exhaust system resources, making services unavailable.",
+    "tags": ["cyber_security", "Attacks"],
+    "required_skills": ["Threat Mitigation"],
+    "hints": ["Traffic flood"]
+  },
+  {
+    "_id": "q_cs_0007",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Web Security",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which vulnerability allows attackers to execute arbitrary SQL commands?",
+    "options": [
+      "Cross-Site Scripting",
+      "SQL Injection",
+      "Broken Authentication",
+      "CSRF"
+    ],
+    "answer": "SQL Injection",
+    "explanation": "SQL Injection exploits unsanitized input in database queries.",
+    "tags": ["cyber_security", "Web Vulnerabilities"],
+    "required_skills": ["Secure Coding"],
+    "hints": ["Database attack"]
+  },
+  {
+    "_id": "q_cs_0008",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Malware",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What distinguishes a worm from a virus?",
+    "options": [
+      "Worms require user interaction",
+      "Viruses self-propagate without a host",
+      "Worms self-propagate without a host",
+      "Viruses do not replicate"
+    ],
+    "answer": "Worms self-propagate without a host",
+    "explanation": "Worms spread autonomously, unlike viruses which need host files.",
+    "tags": ["cyber_security", "Malware"],
+    "required_skills": ["Malware Analysis"],
+    "hints": ["Self-spreading"]
+  },
+  {
+    "_id": "q_cs_0009",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Encryption",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which encryption algorithm uses a public and private key pair?",
+    "options": [
+      "AES",
+      "DES",
+      "RSA",
+      "Blowfish"
+    ],
+    "answer": "RSA",
+    "explanation": "RSA is an asymmetric encryption algorithm using key pairs.",
+    "tags": ["cyber_security", "Encryption"],
+    "required_skills": ["Cryptography"],
+    "hints": ["Asymmetric keys"]
+  },
+  {
+    "_id": "q_cs_0010",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Security Models",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which security model focuses on maintaining data confidentiality?",
+    "options": [
+      "Biba Model",
+      "Bell-LaPadula Model",
+      "Clark-Wilson Model",
+      "Graham-Denning Model"
+    ],
+    "answer": "Bell-LaPadula Model",
+    "explanation": "Bell-LaPadula enforces access control to preserve confidentiality.",
+    "tags": ["cyber_security", "Security Models"],
+    "required_skills": ["Security Architecture"],
+    "hints": ["No read up"]
+  },
+
+  {
+    "_id": "q_cs_0011",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Incident Response",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is the first phase of incident response?",
+    "options": [
+      "Eradication",
+      "Containment",
+      "Preparation",
+      "Recovery"
+    ],
+    "answer": "Preparation",
+    "explanation": "Preparation involves policies, tools, and training before incidents occur.",
+    "tags": ["cyber_security", "Incident Response"],
+    "required_skills": ["IR Planning"],
+    "hints": ["Before the attack"]
+  },
+  {
+    "_id": "q_cs_0012",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Access Control",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What principle ensures users have only the minimum permissions required?",
+    "options": [
+      "Defense in depth",
+      "Least privilege",
+      "Separation of duties",
+      "Fail-safe defaults"
+    ],
+    "answer": "Least privilege",
+    "explanation": "Least privilege reduces attack surface by limiting access rights.",
+    "tags": ["cyber_security", "Access Control"],
+    "required_skills": ["Identity Management"],
+    "hints": ["Minimum access"]
+  },
+  {
+    "_id": "q_cs_0013",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Monitoring",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is the main purpose of an Intrusion Detection System (IDS)?",
+    "options": [
+      "Block malicious traffic",
+      "Detect suspicious activities",
+      "Encrypt data packets",
+      "Authenticate users"
+    ],
+    "answer": "Detect suspicious activities",
+    "explanation": "IDS monitors traffic and alerts on potential threats.",
+    "tags": ["cyber_security", "IDS"],
+    "required_skills": ["Security Monitoring"],
+    "hints": ["Detection, not blocking"]
+  },
+  {
+    "_id": "q_cs_0014",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Vulnerabilities",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is a zero-day vulnerability?",
+    "options": [
+      "A vulnerability with no fix yet",
+      "A vulnerability that is one day old",
+      "A low-risk vulnerability",
+      "A patched vulnerability"
+    ],
+    "answer": "A vulnerability with no fix yet",
+    "explanation": "Zero-day vulnerabilities are unknown to vendors and unpatched.",
+    "tags": ["cyber_security", "Vulnerabilities"],
+    "required_skills": ["Risk Assessment"],
+    "hints": ["No patch"]
+  },
+  {
+    "_id": "q_cs_0015",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Digital Forensics",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is the primary objective of digital forensics?",
+    "options": [
+      "Prevent attacks",
+      "Recover deleted data",
+      "Collect and analyze evidence",
+      "Encrypt information"
+    ],
+    "answer": "Collect and analyze evidence",
+    "explanation": "Digital forensics focuses on evidence preservation and analysis.",
+    "tags": ["cyber_security", "Forensics"],
+    "required_skills": ["Forensic Analysis"],
+    "hints": ["Evidence handling"]
+  },
+  {
+    "_id": "q_cs_0016",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Application Security",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which practice helps prevent buffer overflow attacks?",
+    "options": [
+      "Input validation",
+      "Hardcoding credentials",
+      "Disabling firewalls",
+      "Using plain text storage"
+    ],
+    "answer": "Input validation",
+    "explanation": "Validating input prevents memory overflows and injection attacks.",
+    "tags": ["cyber_security", "AppSec"],
+    "required_skills": ["Secure Development"],
+    "hints": ["Validate inputs"]
+  },
+  {
+    "_id": "q_cs_0017",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Cloud Security",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which concept defines shared security responsibility in cloud environments?",
+    "options": [
+      "Zero Trust",
+      "Defense in depth",
+      "Shared Responsibility Model",
+      "Least privilege"
+    ],
+    "answer": "Shared Responsibility Model",
+    "explanation": "Cloud providers and customers share security duties.",
+    "tags": ["cyber_security", "Cloud Security"],
+    "required_skills": ["Cloud Security"],
+    "hints": ["Provider vs customer"]
+  },
+  {
+    "_id": "q_cs_0018",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Ethical Hacking",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "What is the role of a penetration tester?",
+    "options": [
+      "Develop software",
+      "Exploit systems maliciously",
+      "Identify and report security weaknesses",
+      "Manage network traffic"
+    ],
+    "answer": "Identify and report security weaknesses",
+    "explanation": "Penetration testers legally test systems to improve security.",
+    "tags": ["cyber_security", "Ethical Hacking"],
+    "required_skills": ["Penetration Testing"],
+    "hints": ["Authorized testing"]
+  },
+  {
+    "_id": "q_cs_0019",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Governance",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Which standard provides guidelines for information security management systems?",
+    "options": [
+      "ISO 9001",
+      "ISO 14001",
+      "ISO/IEC 27001",
+      "IEEE 802.11"
+    ],
+    "answer": "ISO/IEC 27001",
+    "explanation": "ISO/IEC 27001 defines requirements for ISMS.",
+    "tags": ["cyber_security", "Standards"],
+    "required_skills": ["Security Compliance"],
+    "hints": ["ISMS standard"]
+  },
+  {
+    "_id": "q_cs_0020",
+    "question_type": "multiple-choice",
+    "domain": "cyber_security",
+    "topic": "Future Trends",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "estimated_time_sec": 180,
+    "text": "Why is post-quantum cryptography important?",
+    "options": [
+      "To increase encryption speed",
+      "To protect against attacks from quantum computers",
+      "To reduce key size",
+      "To simplify authentication"
+    ],
+    "answer": "To protect against attacks from quantum computers",
+    "explanation": "Quantum computers threaten current cryptographic algorithms.",
+    "tags": ["cyber_security", "Cryptography"],
+    "required_skills": ["Advanced Security"],
+    "hints": ["Quantum threat"]
+  },
+
+  {
+    "_id": "q_cs_0021",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Information Security Fundamentals",
+    "difficulty": 2,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Explain the CIA triad in cyber_security and discuss why each component is important.",
+    "expected_answer": {
+      "key_points": [
+        "Confidentiality ensures data is accessible only to authorized users",
+        "Integrity ensures data is accurate and not tampered with",
+        "Availability ensures systems and data are accessible when needed",
+        "Balance among the three is essential for secure systems"
+      ],
+      "example_scenarios": [
+        "Encrypting customer data in banking applications",
+        "Using backups and redundancy to maintain system availability"
+      ],
+      "minimum_word_count": 130
+    },
+    "evaluation_criteria": [
+      { "criterion": "Conceptual Understanding", "weight": 0.4 },
+      { "criterion": "Practical Examples", "weight": 0.3 },
+      { "criterion": "Clarity", "weight": 0.3 }
+    ],
+    "tags": ["CIA Triad", "Security Fundamentals"],
+    "required_skills": ["cyber_security Basics"],
+    "hints": [
+      "Think about data protection goals",
+      "Relate each concept to real systems"
+    ]
+  },
+  {
+    "_id": "q_cs_0022",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Malware",
+    "difficulty": 3,
+    "difficulty_label": "Intermediate",
+    "estimated_time_sec": 300,
+    "text": "Explain different types of malware and describe how they impact computer systems.",
+    "expected_answer": {
+      "key_points": [
+        "Viruses, worms, trojans, ransomware, spyware",
+        "Modes of infection and propagation",
+        "Impact on data, performance, and security"
+      ],
+      "example_scenarios": [
+        "Ransomware encrypting organizational data",
+        "Trojan malware stealing login credentials"
+      ],
+      "minimum_word_count": 150
+    },
+    "evaluation_criteria": [
+      { "criterion": "Technical Accuracy", "weight": 0.4 },
+      { "criterion": "Coverage of Types", "weight": 0.3 },
+      { "criterion": "Explanation Quality", "weight": 0.3 }
+    ],
+    "tags": ["Malware", "Threats"],
+    "required_skills": ["cyber_security"],
+    "hints": [
+      "Classify malware by behavior",
+      "Explain real-world consequences"
+    ]
+  },
+  {
+    "_id": "q_cs_0023",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Network Security",
+    "difficulty": 3,
+    "difficulty_label": "Intermediate",
+    "estimated_time_sec": 300,
+    "text": "Describe common network security threats and methods used to mitigate them.",
+    "expected_answer": {
+      "key_points": [
+        "Threats such as DDoS, spoofing, sniffing, MITM",
+        "Firewalls and intrusion detection systems",
+        "Network segmentation and monitoring"
+      ],
+      "example_scenarios": [
+        "DDoS attack on a web server",
+        "Using firewalls to block unauthorized traffic"
+      ],
+      "minimum_word_count": 150
+    },
+    "evaluation_criteria": [
+      { "criterion": "Threat Understanding", "weight": 0.4 },
+      { "criterion": "Mitigation Techniques", "weight": 0.3 },
+      { "criterion": "Clarity", "weight": 0.3 }
+    ],
+    "tags": ["Network Security", "Threat Mitigation"],
+    "required_skills": ["Networking", "Security"],
+    "hints": [
+      "Focus on attack vectors",
+      "Map threats to defenses"
+    ]
+  },
+  {
+    "_id": "q_cs_0024",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Cryptography",
+    "difficulty": 3,
+    "difficulty_label": "Intermediate",
+    "estimated_time_sec": 300,
+    "text": "Explain symmetric and asymmetric encryption techniques and compare their use cases.",
+    "expected_answer": {
+      "key_points": [
+        "Definition of symmetric encryption",
+        "Definition of asymmetric encryption",
+        "Key management differences",
+        "Performance and security trade-offs"
+      ],
+      "example_scenarios": [
+        "AES for data-at-rest encryption",
+        "RSA for secure key exchange"
+      ],
+      "minimum_word_count": 150
+    },
+    "evaluation_criteria": [
+      { "criterion": "Conceptual Accuracy", "weight": 0.4 },
+      { "criterion": "Comparison", "weight": 0.3 },
+      { "criterion": "Use-case Relevance", "weight": 0.3 }
+    ],
+    "tags": ["Encryption", "Cryptography"],
+    "required_skills": ["Cryptography Basics"],
+    "hints": [
+      "Compare key usage",
+      "Discuss performance vs security"
+    ]
+  },
+  {
+    "_id": "q_cs_0025",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Authentication & Authorization",
+    "difficulty": 2,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Explain authentication and authorization and highlight the difference between them.",
+    "expected_answer": {
+      "key_points": [
+        "Authentication verifies identity",
+        "Authorization defines access rights",
+        "Both are required for secure systems"
+      ],
+      "example_scenarios": [
+        "Login using username and password",
+        "Role-based access control in organizations"
+      ],
+      "minimum_word_count": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Concept Clarity", "weight": 0.4 },
+      { "criterion": "Correct Differentiation", "weight": 0.3 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "tags": ["Authentication", "Authorization"],
+    "required_skills": ["Security Fundamentals"],
+    "hints": [
+      "Think identity vs permissions",
+      "Use system login examples"
+    ]
+  },
+
+  {
+    "_id": "q_cs_0026",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Web Security",
+    "difficulty": 3,
+    "difficulty_label": "Intermediate",
+    "estimated_time_sec": 300,
+    "text": "Explain common web application vulnerabilities listed in OWASP Top 10.",
+    "expected_answer": {
+      "key_points": [
+        "SQL injection, XSS, CSRF",
+        "Broken authentication",
+        "Security misconfiguration"
+      ],
+      "example_scenarios": [
+        "SQL injection extracting database records",
+        "XSS stealing user session cookies"
+      ],
+      "minimum_word_count": 150
+    },
+    "evaluation_criteria": [
+      { "criterion": "Vulnerability Awareness", "weight": 0.4 },
+      { "criterion": "Practical Examples", "weight": 0.3 },
+      { "criterion": "Depth", "weight": 0.3 }
+    ],
+    "tags": ["Web Security", "OWASP"],
+    "required_skills": ["Web Security"],
+    "hints": [
+      "Focus on common attack patterns",
+      "Relate to real websites"
+    ]
+  },
+
+  {
+    "_id": "q_cs_0027",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Incident Response",
+    "difficulty": 4,
+    "difficulty_label": "Advanced",
+    "estimated_time_sec": 360,
+    "text": "Describe the incident response lifecycle and its importance in cyber_security.",
+    "expected_answer": {
+      "key_points": [
+        "Preparation, detection, containment",
+        "Eradication and recovery",
+        "Post-incident analysis"
+      ],
+      "example_scenarios": [
+        "Responding to a data breach",
+        "Handling malware infection in enterprise systems"
+      ],
+      "minimum_word_count": 180
+    },
+    "evaluation_criteria": [
+      { "criterion": "Process Understanding", "weight": 0.4 },
+      { "criterion": "Technical Depth", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.3 }
+    ],
+    "tags": ["Incident Response", "Security Operations"],
+    "required_skills": ["cyber_security"],
+    "hints": [
+      "Think in phases",
+      "Explain why response speed matters"
+    ]
+  },
+
+  {
+    "_id": "q_cs_0028",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Firewalls",
+    "difficulty": 2,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Explain the role of firewalls in network security.",
+    "expected_answer": {
+      "key_points": [
+        "Traffic filtering",
+        "Access control policies",
+        "Protection against unauthorized access"
+      ],
+      "example_scenarios": [
+        "Blocking unused ports",
+        "Allowing only trusted IP addresses"
+      ],
+      "minimum_word_count": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Concept Understanding", "weight": 0.4 },
+      { "criterion": "Use-case Explanation", "weight": 0.3 },
+      { "criterion": "Clarity", "weight": 0.3 }
+    ],
+    "tags": ["Firewalls", "Network Security"],
+    "required_skills": ["Networking"],
+    "hints": [
+      "Think traffic control",
+      "Relate to perimeter security"
+    ]
+  },
+
+  {
+    "_id": "q_cs_0029",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Access Control",
+    "difficulty": 3,
+    "difficulty_label": "Intermediate",
+    "estimated_time_sec": 300,
+    "text": "Explain different access control models used in cyber_security.",
+    "expected_answer": {
+      "key_points": [
+        "DAC, MAC, RBAC",
+        "Policy enforcement",
+        "Use in enterprise systems"
+      ],
+      "example_scenarios": [
+        "RBAC in corporate environments",
+        "MAC in military systems"
+      ],
+      "minimum_word_count": 150
+    },
+    "evaluation_criteria": [
+      { "criterion": "Model Explanation", "weight": 0.4 },
+      { "criterion": "Practical Relevance", "weight": 0.3 },
+      { "criterion": "Clarity", "weight": 0.3 }
+    ],
+    "tags": ["Access Control", "Security Models"],
+    "required_skills": ["cyber_security"],
+    "hints": [
+      "Compare control methods",
+      "Use role-based examples"
+    ]
+  },
+
+  {
+    "_id": "q_cs_0030",
+    "question_type": "subjective",
+    "domain": "cyber_security",
+    "topic": "Security Policies",
+    "difficulty": 2,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Explain the importance of security policies in an organization.",
+    "expected_answer": {
+      "key_points": [
+        "Defines acceptable behavior",
+        "Guides security implementation",
+        "Ensures compliance"
+      ],
+      "example_scenarios": [
+        "Password policies",
+        "Data handling policies"
+      ],
+      "minimum_word_count": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Policy Understanding", "weight": 0.4 },
+      { "criterion": "Relevance", "weight": 0.3 },
+      { "criterion": "Clarity", "weight": 0.3 }
+    ],
+    "tags": ["Security Policy", "Governance"],
+    "required_skills": ["cyber_security Basics"],
+    "hints": [
+      "Think organizational rules",
+      "Relate to compliance"
+    ]
+  },
+
+  {
+    "_id": "q_cyber_0031",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Fundamentals",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is cyber_security and why is it important?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Protection of systems and data", "Prevents cyber attacks", "Ensures confidentiality and integrity"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Cyber Basics"],
+    "required_skills": ["IT Basics"],
+    "hints": ["Protecting digital assets"]
+  },
+  {
+    "_id": "q_cyber_0032",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "CIA Triad",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is the CIA triad in cyber_security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Confidentiality", "Integrity", "Availability"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["CIA Triad"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Core principles"]
+  },
+  {
+    "_id": "q_cyber_0033",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Malware",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is malware? Name a few types.",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Malicious software", "Virus", "Worm or Trojan"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Malware"],
+    "required_skills": ["Security Awareness"],
+    "hints": ["Harmful software"]
+  },
+  {
+    "_id": "q_cyber_0034",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Phishing",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is phishing and how does it work?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Fake messages", "Steals credentials", "Social engineering"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Phishing"],
+    "required_skills": ["Security Awareness"],
+    "hints": ["Fake emails"]
+  },
+  {
+    "_id": "q_cyber_0035",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Authentication",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is authentication in cyber_security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Verifying identity", "Passwords or biometrics", "Access control"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Authentication"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Login verification"]
+  },
+  {
+    "_id": "q_cyber_0036",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Authorization",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is the difference between authentication and authorization?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Authentication verifies identity", "Authorization grants permissions"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Auth vs AuthZ"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Who you are vs what you can do"]
+  },
+  {
+    "_id": "q_cyber_0037",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Firewalls",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is a firewall and how does it protect a system?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Network security device", "Filters traffic", "Blocks unauthorized access"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Firewall"],
+    "required_skills": ["Networking Basics"],
+    "hints": ["Traffic filter"]
+  },
+  {
+    "_id": "q_cyber_0038",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Encryption",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is encryption and why is it used?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Data scrambling", "Protects confidentiality", "Uses keys"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Encryption"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Data protection"]
+  },
+  {
+    "_id": "q_cyber_0039",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Passwords",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What makes a password strong?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Length", "Complex characters", "Uniqueness"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Passwords"],
+    "required_skills": ["Security Awareness"],
+    "hints": ["Hard to guess"]
+  },
+  {
+    "_id": "q_cyber_0040",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Network Security",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is network security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Protecting networks", "Prevents attacks", "Secures data transfer"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Network Security"],
+    "required_skills": ["Networking"],
+    "hints": ["Secure communication"]
+  },
+  {
+    "_id": "q_cyber_0041",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Attacks",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is a denial-of-service (DoS) attack?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Overloads systems", "Disrupts services", "Prevents access"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["DoS Attack"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Service disruption"]
+  },
+  {
+    "_id": "q_cyber_0042",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Updates",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "Why are software updates important for security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Fix vulnerabilities", "Patch security holes", "Improve protection"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Updates"],
+    "required_skills": ["IT Basics"],
+    "hints": ["Security patches"]
+  },
+  {
+    "_id": "q_cyber_0043",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Social Engineering",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What is social engineering in cyber_security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Manipulating people", "Psychological tricks", "Steals information"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Social Engineering"],
+    "required_skills": ["Security Awareness"],
+    "hints": ["Human weakness"]
+  },
+  {
+    "_id": "q_cyber_0044",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Backup",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "Why are data backups important for cyber_security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Data recovery", "Protection from ransomware", "Business continuity"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Backup"],
+    "required_skills": ["IT Basics"],
+    "hints": ["Data recovery"]
+  },
+  {
+    "_id": "q_cyber_0045",
+    "question_type": "voice",
+    "domain": "cyber_security",
+    "topic": "Careers",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 120,
+    "text": "What career roles exist in cyber_security?",
+    "voice_instructions": "Speak clearly and naturally. You have 2 minutes to respond.",
+    "expected_answer": {
+      "key_concepts": ["Security analyst", "Penetration tester", "Security engineer"],
+      "minimum_duration_sec": 45,
+      "maximum_duration_sec": 120
+    },
+    "evaluation_criteria": [
+      { "criterion": "Clarity", "weight": 0.3 },
+      { "criterion": "Completeness", "weight": 0.4 },
+      { "criterion": "Examples", "weight": 0.3 }
+    ],
+    "transcription_required": true,
+    "tags": ["Careers"],
+    "required_skills": ["Security Basics"],
+    "hints": ["Cyber jobs"]
+  },
+  {
+    "_id": "q_cyber_0046",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Authentication",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if a user is authenticated.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def is_authenticated(flag):\n    pass",
+      "function_signature": "is_authenticated(flag: bool) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return flag",
+      "key_concepts": ["Authentication", "Access control"]
+    },
+    "test_cases": [
+      {
+        "input": "True",
+        "expected_output": "True",
+        "description": "User authenticated"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Auth status correct" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Direct return" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles false case" }
+    ],
+    "tags": ["cyber_security", "Authentication"],
+    "required_skills": ["Python"],
+    "hints": ["Return boolean flag"]
+  },
+
+  {
+    "_id": "q_cyber_0047",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Passwords",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if password length is secure (>=8 characters).",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def strong_password(password):\n    pass",
+      "function_signature": "strong_password(password: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return len(password) >= 8",
+      "key_concepts": ["Password policy", "Security"]
+    },
+    "test_cases": [
+      {
+        "input": "\"secure123\"",
+        "expected_output": "True",
+        "description": "Strong password"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Password validated" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Clear logic" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles short password" }
+    ],
+    "tags": ["cyber_security", "Passwords"],
+    "required_skills": ["Python"],
+    "hints": ["Minimum length 8"]
+  },
+
+  {
+    "_id": "q_cyber_0048",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Authorization",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if user role is admin.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def is_admin(role):\n    pass",
+      "function_signature": "is_admin(role: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return role.lower() == \"admin\"",
+      "key_concepts": ["Authorization", "Roles"]
+    },
+    "test_cases": [
+      {
+        "input": "\"admin\"",
+        "expected_output": "True",
+        "description": "Admin role"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Role validated" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Case handling" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles non-admin" }
+    ],
+    "tags": ["cyber_security", "Authorization"],
+    "required_skills": ["Python"],
+    "hints": ["Compare role string"]
+  },
+
+  {
+    "_id": "q_cyber_0049",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Malware",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 300,
+    "text": "Write a function to detect suspicious file extension.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def suspicious_file(filename):\n    pass",
+      "function_signature": "suspicious_file(filename: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return filename.lower().endswith('.exe')",
+      "key_concepts": ["Malware detection", "File scanning"]
+    },
+    "test_cases": [
+      {
+        "input": "\"virus.exe\"",
+        "expected_output": "True",
+        "description": "Executable detected"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "File detected" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "String method usage" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles safe file" }
+    ],
+    "tags": ["cyber_security", "Malware"],
+    "required_skills": ["Python"],
+    "hints": ["Check file extension"]
+  },
+
+  {
+    "_id": "q_cyber_0050",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Network Security",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if an IP address is blocked.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def is_blocked(ip):\n    pass",
+      "function_signature": "is_blocked(ip: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return ip.startswith('192.168.')",
+      "key_concepts": ["IP filtering", "Network security"]
+    },
+    "test_cases": [
+      {
+        "input": "\"192.168.1.10\"",
+        "expected_output": "True",
+        "description": "Blocked IP"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "IP detected" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "String prefix check" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles public IP" }
+    ],
+    "tags": ["cyber_security", "Network"],
+    "required_skills": ["Python"],
+    "hints": ["Private IP range"]
+  },
+
+  {
+    "_id": "q_cyber_0051",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Encryption",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to mask sensitive data except last 4 characters.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def mask_data(data):\n    pass",
+      "function_signature": "mask_data(data: str) -> str"
+    },
+    "expected_answer": {
+      "solution": "return '*' * (len(data)-4) + data[-4:]",
+      "key_concepts": ["Data masking", "Encryption basics"]
+    },
+    "test_cases": [
+      {
+        "input": "\"12345678\"",
+        "expected_output": "\"****5678\"",
+        "description": "Masked data"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Data masked correctly" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "String slicing" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles short data" }
+    ],
+    "tags": ["cyber_security", "Encryption"],
+    "required_skills": ["Python"],
+    "hints": ["Use string slicing"]
+  },
+
+  {
+    "_id": "q_cyber_0052",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Phishing",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 300,
+    "text": "Write a function to detect phishing link.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def is_phishing(url):\n    pass",
+      "function_signature": "is_phishing(url: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return 'login' in url.lower() and 'http' in url.lower()",
+      "key_concepts": ["Phishing", "URL analysis"]
+    },
+    "test_cases": [
+      {
+        "input": "\"http://fake-login.com\"",
+        "expected_output": "True",
+        "description": "Phishing URL"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Phishing detected" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Lowercase handling" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles safe URL" }
+    ],
+    "tags": ["cyber_security", "Phishing"],
+    "required_skills": ["Python"],
+    "hints": ["Check suspicious keywords"]
+  },
+
+  {
+    "_id": "q_cyber_0053",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Firewall",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to allow or deny traffic based on port number.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def firewall(port):\n    pass",
+      "function_signature": "firewall(port: int) -> str"
+    },
+    "expected_answer": {
+      "solution": "return \"Allow\" if port in [80, 443] else \"Deny\"",
+      "key_concepts": ["Firewall rules", "Ports"]
+    },
+    "test_cases": [
+      {
+        "input": "22",
+        "expected_output": "\"Deny\"",
+        "description": "SSH blocked"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Rule applied" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Clear logic" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles allowed ports" }
+    ],
+    "tags": ["cyber_security", "Firewall"],
+    "required_skills": ["Python"],
+    "hints": ["HTTP ports are 80, 443"]
+  },
+
+  {
+    "_id": "q_cyber_0054",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Intrusion Detection",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 300,
+    "text": "Write a function to detect brute force attack based on attempts count.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def brute_force(attempts):\n    pass",
+      "function_signature": "brute_force(attempts: int) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return attempts > 5",
+      "key_concepts": ["IDS", "Brute force detection"]
+    },
+    "test_cases": [
+      {
+        "input": "6",
+        "expected_output": "True",
+        "description": "Attack detected"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Detection correct" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Clear threshold" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles normal attempts" }
+    ],
+    "tags": ["cyber_security", "IDS"],
+    "required_skills": ["Python"],
+    "hints": ["Attempts > 5"]
+  },
+
+  {
+    "_id": "q_cyber_0055",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Logs",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if log entry indicates error.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def log_error(entry):\n    pass",
+      "function_signature": "log_error(entry: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return 'error' in entry.lower()",
+      "key_concepts": ["Log analysis", "Monitoring"]
+    },
+    "test_cases": [
+      {
+        "input": "\"System Error Occurred\"",
+        "expected_output": "True",
+        "description": "Error log"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Log checked" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Case handling" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles info logs" }
+    ],
+    "tags": ["cyber_security", "Logs"],
+    "required_skills": ["Python"],
+    "hints": ["Search for 'error'"]
+  },
+
+  {
+    "_id": "q_cyber_0056",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Session Security",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if session expired.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def session_expired(active):\n    pass",
+      "function_signature": "session_expired(active: bool) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return not active",
+      "key_concepts": ["Session management", "Timeout"]
+    },
+    "test_cases": [
+      {
+        "input": "False",
+        "expected_output": "True",
+        "description": "Session expired"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Session status correct" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Boolean inversion" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles active session" }
+    ],
+    "tags": ["cyber_security", "Sessions"],
+    "required_skills": ["Python"],
+    "hints": ["Expired if not active"]
+  },
+
+  {
+    "_id": "q_cyber_0057",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Access Control",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to allow access only during office hours (9–17).",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def office_access(hour):\n    pass",
+      "function_signature": "office_access(hour: int) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return 9 <= hour <= 17",
+      "key_concepts": ["Access control", "Time-based security"]
+    },
+    "test_cases": [
+      {
+        "input": "10",
+        "expected_output": "True",
+        "description": "Access allowed"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Access checked" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Range check" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles outside hours" }
+    ],
+    "tags": ["cyber_security", "AccessControl"],
+    "required_skills": ["Python"],
+    "hints": ["Between 9 and 17"]
+  },
+
+  {
+    "_id": "q_cyber_0058",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Vulnerabilities",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 300,
+    "text": "Write a function to detect SQL injection pattern.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def sql_injection(input_text):\n    pass",
+      "function_signature": "sql_injection(input_text: str) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return \"' or '\" in input_text.lower()",
+      "key_concepts": ["SQL Injection", "Input validation"]
+    },
+    "test_cases": [
+      {
+        "input": "\"' OR '1'='1\"",
+        "expected_output": "True",
+        "description": "SQL injection detected"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Injection detected" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "String check" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles safe input" }
+    ],
+    "tags": ["cyber_security", "SQLi"],
+    "required_skills": ["Python"],
+    "hints": ["Look for OR pattern"]
+  },
+
+  {
+    "_id": "q_cyber_0059",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Data Protection",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "estimated_time_sec": 240,
+    "text": "Write a function to check if data is encrypted.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def is_encrypted(flag):\n    pass",
+      "function_signature": "is_encrypted(flag: bool) -> bool"
+    },
+    "expected_answer": {
+      "solution": "return flag",
+      "key_concepts": ["Encryption", "Data protection"]
+    },
+    "test_cases": [
+      {
+        "input": "True",
+        "expected_output": "True",
+        "description": "Encrypted data"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Encryption status" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Simple return" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles false case" }
+    ],
+    "tags": ["cyber_security", "Encryption"],
+    "required_skills": ["Python"],
+    "hints": ["Return boolean"]
+  },
+
+  {
+    "_id": "q_cyber_0060",
+    "question_type": "coding",
+    "domain": "cyber_security",
+    "topic": "Security Monitoring",
+    "difficulty": 2,
+    "difficulty_label": "Novice",
+    "estimated_time_sec": 300,
+    "text": "Write a function to calculate security risk score.",
+    "coding_instructions": {
+      "language": "python",
+      "allowed_libraries": [],
+      "starter_code": "def risk_score(threats, total):\n    pass",
+      "function_signature": "risk_score(threats: int, total: int) -> float"
+    },
+    "expected_answer": {
+      "solution": "return (threats / total) * 100 if total > 0 else 0",
+      "key_concepts": ["Risk assessment", "Monitoring"]
+    },
+    "test_cases": [
+      {
+        "input": "5, 20",
+        "expected_output": "25.0",
+        "description": "Risk calculated"
+      }
+    ],
+    "evaluation_criteria": [
+      { "criterion": "Correctness", "weight": 0.5, "description": "Risk score correct" },
+      { "criterion": "Code Quality", "weight": 0.25, "description": "Safe division" },
+      { "criterion": "Edge Cases", "weight": 0.25, "description": "Handles zero total" }
+    ],
+    "tags": ["cyber_security", "Risk"],
+    "required_skills": ["Python"],
+    "hints": ["(threats/total)*100"]
+  }
+]
